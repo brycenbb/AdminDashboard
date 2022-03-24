@@ -11,9 +11,9 @@ body {
 }
 
 .container {
-    border: solid black 3px;
-    height: 90%;
-    width: 90%;
+    /* border: solid black 3px; */
+    height: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1.4fr 6fr;
@@ -27,7 +27,7 @@ body {
     grid-row: 1/8;
     display: grid;
     grid-template-rows: 2fr repeat(5,1fr) 1fr 1fr repeat(3,1fr) 6fr; 
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color:white;
     z-index: 3;
 }
@@ -126,7 +126,7 @@ form {
     grid-column-start: 4;
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     font-weight: bold;
     font-size: 1.1rem;
 }
@@ -141,8 +141,8 @@ form {
 button {
     text-align: center;
     background-color: #1992d4;
-    width: 5.625rem;
-    height: 2.188rem;
+    width: 6.5rem;
+    height: 2.5rem;
     border-radius: 1.25rem;
     box-shadow: none;
     color:white;
@@ -281,3 +281,4 @@ hr {
     border: 0.3px solid grey;
     opacity: 0.8;
 }
+
