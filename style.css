@@ -18,6 +18,7 @@ body {
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1.4fr 6fr;
     resize: both;
+    z-index: 10;
 }
 
 .sidebar {
@@ -28,6 +29,7 @@ body {
     grid-template-rows: 2fr repeat(5,1fr) 1fr 1fr repeat(3,1fr) 6fr; 
     font-size: 20px;
     color:white;
+    z-index: 3;
 }
 
 .sidebar > div {
@@ -77,6 +79,8 @@ body {
     background-color: #ffffff;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    box-shadow: 0px 2px 5px 0px gray;   
+    z-index: 2;
 }
 
 .header_top {
