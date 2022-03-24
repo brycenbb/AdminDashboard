@@ -11,9 +11,9 @@ body {
 }
 
 .container {
-    border: solid black 3px;
-    height: 90%;
-    width: 90%;
+    /* border: solid black 3px; */
+    height: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1.4fr 6fr;
@@ -194,8 +194,8 @@ button:hover{
     grid-row:2/5;
     gap: 20px;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    grid-template-rows: 1fr 1fr;
-    /* grid-template-rows: repeat(auto-fit,minmax(100px,1.25fr)); */
+    /* grid-template-rows: 1fr 1fr; */
+    /* grid-template-rows: repeat(auto-fit,minmax(200px,1.25fr)); */
     resize: both;
     padding-right: 20px;
     padding-top:10px;
