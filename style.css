@@ -121,6 +121,8 @@ form {
 .bell:hover,
 .profile:hover{
     cursor: pointer;
+    color:aqua;
+    transition: 250ms;
 }
 .profile {
     grid-column-start: 4;
@@ -151,6 +153,10 @@ button {
 
 button:hover{
     cursor: pointer;
+    filter:brightness(0.9);
+    background-color: aqua;
+    transition: 300ms;
+    color: black;
 }
 
 .welcome {
